@@ -36,14 +36,14 @@ namespace DesafioFundamentos.Models
                     }
                     else
                     {
-                        Console.WriteLine("Por gentileza digite uma placa válida!" + placaDigitada + " Placa informada já está cadastrada!");
+                        Console.WriteLine("Por gentileza digite uma placa válida! - " + placaDigitada + " - Placa informada já está cadastrada!");
                         AdicionarVeiculo();
                     }
                 }
             }
             else
             {
-                Console.WriteLine("Por gentileza digite uma placa válida!");
+                Console.WriteLine("Por gentileza digite uma placa válida! Uma placa precisa conter 7 caractes.");
                 AdicionarVeiculo();
             }
         }
@@ -83,8 +83,7 @@ namespace DesafioFundamentos.Models
                 foreach (var veiculo in veiculos)
                 {
                     Console.WriteLine("                             -" + veiculo);
-                }
-                ;
+                };
             }
             else
             {
