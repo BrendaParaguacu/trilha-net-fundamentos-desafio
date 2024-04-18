@@ -25,7 +25,7 @@ namespace DesafioFundamentos.Models
 
                 if (!placaDigitadaValida.Contains(":"))
                 {
-                    Console.WriteLine("Por gentileza digite uma placa válida! ooXE");
+                    Console.WriteLine("Por gentileza digite uma placa válida!");
                     AdicionarVeiculo();
                 }
                 else
@@ -43,7 +43,7 @@ namespace DesafioFundamentos.Models
             }
             else
             {
-                Console.WriteLine("Por gentileza digite uma placa válida! AXÉ" + placaDigitada.Count());
+                Console.WriteLine("Por gentileza digite uma placa válida!");
                 AdicionarVeiculo();
             }
         }
